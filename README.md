@@ -15,13 +15,13 @@ Using bulleted lists and images to support your answers, address the following q
 
 #### Compiling, Training, and Evaluating the Model
 * In this model, there are # neurons and two hidden layers. We used the RELU activation functions to process the hidden layers and the sigmoid function to process the output layers. We decided to use the RELU function as we did not have any negative inputs. For the hidden layers, we found that two were necessary, and keeping them similar in size helped increase the accuracy.
-* Unfortunately, we were not able to meet our target performance. We were able to achieve 69% accuracy.
+* Unfortunately, we were not able to meet our target performance. We were able to achieve 71% accuracy.
 * We attempted to increase the accuracy in three different ways.
     1. Created more bins for both the APPLICATION and CLASSIFICATION columns.
     2. Added a second layer and assigned it five hidden nodes.
     3. Changed the activation functions for the hidden layers from RELU to TANH.
-![](https://i.imgur.com/jMtegjT.png)
+![](https://i.imgur.com/TDj6dHK.png)
 
 
 ### Summary:
-The neural network model was not able to reach the optimal performance of 75% accuracy. We were able to adjust the bins, which increased the accuracy from 66% to 69%. However, our two other attempts did not increase the accuracy. For further analysis, we recommend considering changing the randomization state, removing more columns, or adding the number of epochs to the training regimen. For example,  "SPECIAL_CONSIDERATIONS" only have two types of values, and the "CLASSIFICATION" has 71 unique values, which could be weighing the model down and skewing the data.
+The neural network model was not able to reach the optimal performance of 75% accuracy. We were able to adjust the bins, which increased the accuracy from 59% to 71%. However, our two other attempts did not increase the accuracy. For further analysis, we recommend considering changing the randomization state, removing more columns, or adding the number of epochs to the training regimen. For example,  "SPECIAL_CONSIDERATIONS" only have two types of values, and the "CLASSIFICATION" has 71 unique values, which could be weighing the model down and skewing the data.
